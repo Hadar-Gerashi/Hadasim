@@ -1,0 +1,36 @@
+.header_links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.616);
+    display: flex;
+    justify-content: flex-start;
+    height: 70px;
+
+}
+
+.header_links li {
+    margin: 8px 18px;
+
+}
+
+.header_links li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.header_links li a:hover {
+    color: #dddddd80;
+}
+
+.header_links li a.active {
+    color: rgba(0, 0, 0, 0.797);
+    text-decoration: underline;
+
+}
